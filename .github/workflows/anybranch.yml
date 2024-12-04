@@ -1,0 +1,11 @@
+name: "any branch workflow"
+
+on:
+  push:
+
+jobs:
+  hello_world: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: "push happened"
+        run: echo "push happened"
