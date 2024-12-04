@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  hello_world: 
+  push_happened: 
     runs-on: ubuntu-latest
     steps:
       - name: "push happened"
